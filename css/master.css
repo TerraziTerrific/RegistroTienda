@@ -1,26 +1,27 @@
-p > textarea
-{
-  width: 200px;
+body {
+	margin: 20px;
 }
 
-body
-{
-  margin: 20px;
-  font-family: verdana;
+#destacados {
+	background-color: #669999;
 }
 
-
-input[name$=email]
-{
-  background-color: #eeeeee;
+#ofertas {
+	background-color: #F7D988;
 }
 
-label[for$=age]
-{
-  color: red;
+#disponible {
+	background-color: #F7A188;
 }
 
-p, label
-{
-  font-family: tahoma;
+#contenido > section > h1 {
+	padding: 10px;
+	text-align: center;
+}
+
+footer {
+	margin-top: 10px;
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
 }

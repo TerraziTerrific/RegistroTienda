@@ -1,28 +1,26 @@
-body {
-	margin: 20px;
+p > textarea
+{
+  width: 200px;
 }
 
-#destacados {
-	background-color: #669999;
+body
+{
+  margin: 20px;
+  font-family: verdana;
 }
 
-#ofertas {
-	background-color: #F7D988;
+
+input[name$=email]
+{
+  background-color: #eeeeee;
 }
 
-#disponible {
-	background-color: #F7A188;
+label[for$=age]
+{
+  color: red;
 }
 
-#contenido > section > h1 {
-	padding: 10px;
-	text-align: center;
+p, label
+{
+  font-family: tahoma;
 }
-
-footer {
-	margin-top: 10px;
-	border-top: solid 1px black;
-	padding-top: 10px;
-	text-align: center;
-}
-
